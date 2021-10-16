@@ -5,8 +5,8 @@ module.exports = {
           target: 'http://localhost:3080/'
         },
         "/userapi": {
-          target: 'http://localhost:3080/',
-          pathRewrite: {'^/userapi' : '/api'}
+          target: 'http://localhost:3070/',
+          pathRewrite: {'^/userapi' : '/api2'}
         }
       }
     }
